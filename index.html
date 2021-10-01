@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Happiness index form</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<main>
+    <h1 id="title" class="main_heading">Happiness Survey Form</h1>
+    <div class="box_form"> 
+         
+        <div class="form-rows"> 
+          <div class="labels">
+          <label for="name" id="name-label">Name</label>
+          </div>
+          <div class="fields">
+            <input type="text" id="name" class="input-fields" placeholder="Name" required>
+          </div>
+        </div>
+        <div class="form-rows">
+          <div class="labels">
+            <label for="email" id="email-label">Email</label>
+          </div>
+          <div class="fields">
+            <input type="email" id="email" class="input-fields" placeholder=" Email address" required>
+          </div>
+        </div>
+        <div class="form-rows">
+          <div class="labels">
+            <label for="number" id="number-label">On a scale of 1-10, how happy are you at the moment?</label>
+          </div>
+          <div class="fields">
+            <input type="number" id="number" class="input-fields" placeholder="Enter a number between 1 and 10" min="1" max="10">
+          </div>
+        </div>
+        <div class="form-rows">
+          <div class="labels">
+            <label for="dropdown" id="dropdown-label">In what area of life would you like to increase your feeling of happiness?</label>
+          </div>
+          <div class="fields">
+            <select name="Location of positive event" id="dropdown" class="dropdown">
+            <option value="family">select</option>
+                <option value="family">Family</option>
+                <option value="friends">Friends</option>
+                <option value="relationship">Relationship</option>
+        
+              
+            </select>
+          </div>
+        </div>
+        <div class="form-rows">
+          <div class="labels">
+            <label for="time-of-day">I am happy with the way I am</label>
+          </div>
+          <div class="fields">
+            <ul id="opnion" style="list-style: none;">
+              <li class="radio">
+                <label>
+                  Strongly disagree
+                  <input name="time-radio" type="radio" value="1" class="user-selection">
+                </label>
+              </li>
+              <li class="radio">
+                <label>
+                  Disagree
+                  <input name="time-radio" type="radio" value="2" class="user-selection">
+                </label>
+              </li>
+              <li class="radio">
+                <label>
+                 Neutral
+                  <input name="time-radio" type="radio" value="3" class="user-selection">
+                </label>
+                <li class="radio">
+                <label>
+                  Agree
+                  <input name="time-radio" type="radio" value="2" class="user-selection">
+                </label>
+              </li>
+              <li class="radio">
+                <label>
+                  Strongly agree
+                  <input name="time-radio" type="radio" value="2" class="user-selection">
+                </label>
+              </li>
+              </li>
+            </ul>
+          </div>
+        </div>
+         <div class="form-rows">
+          <div class="labels">
+            <label for="event-details">
+              Please describe a positive experience that you had today?
+            </label>
+          </div>
+          <div class="fields">
+            <textarea name="personal info" rows="8" cols="25 "></textarea> <br><br>
+          </div>
+        </div>
+        <button class="button" id="submit" type="submit" value="Submit form">Submit</button>
+   
+      </form>
+    </div>
+  </main>           
+        </div>
+        
+       </div>
+ 
+</body>
+
+</html>
